@@ -1,0 +1,104 @@
+:root {
+    --base-color:#FFFFFF;
+    --body-text:#434455;
+    --headings:#2E2F42;
+    --helper-text:#8E8F99;
+    --header:#FFFFFF;
+    --team-card-background:#FFFFFF;
+    --focused:#4D5AE5;
+    --links:#4D5AE5;
+    --active:#4D5AE5;
+    --buton:#4D5AE5;
+    --hover:#404BBF;
+    --overlays:#2E2F42;
+    --team:#F4F4FD;
+    --footer:#2E2F42;
+}
+body{
+    background-color:var(--base-color);
+    color:var(--body-text);
+    font-family:Roboto;
+}
+li {
+    list-style-type: none;
+}
+/* Стилі хейдера */
+.header-link {
+    color:var(--headings);
+    text-decoration: none;
+}
+.header-link:hover{
+    color:var(--hover);
+}
+.header-link:focus{
+    color:var(--focused);
+}
+/* Стилі для героя */
+.hero {
+    background-color:var(--overlays);
+}
+.hero-title {
+    color:var(--header);
+}
+.hero-button {
+    background-color:var(--buton);
+    color:var(--header);
+}
+/* Стилі для переваг */
+
+.advantages-title {
+    visibility: hidden;
+}
+.advantages-item-title {
+color:var(--headings);
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.advantages-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.info-title {
+color:var(--headings);
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+}
+/* Стилі для команди */
+.team {
+    background-color:var(--team);
+}
+.team-title {
+color:var(--headings);
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+}
+.team-name {
+color:var(--headings);
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+/* Стилі для футера */
+.footer {
+    background-color:var(--footer);
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.header-link.current {
+    color:var(--body-text)
+}
+.card-item-title {
+    color:var(--headings);
+}
